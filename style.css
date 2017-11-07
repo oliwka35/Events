@@ -1,16 +1,16 @@
 
 * {
-  margin: 0;
-  padding: 0;
-  position: center;
+	margin: 0;
+	padding: 0;
+	position: center;
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 1200px;
-    background-color: #F5F5F5;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 1200px;
+	background-color: #F5F5F5;
 
 }
 
@@ -30,97 +30,97 @@ img{
 	text-align: center;
 	padding: 1%; 
 
-  object-position: 50% 50%;
+	object-position: 50% 50%;
 }
 
 
 
 .hovereffect:hover img {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .hovereffect:hover img {
-  display: block;
-  position: relative;
-  -webkit-transition: all .4s linear;
-  transition: all .4s linear;
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .hovereffect h2 {
-  font-family: "Lato", serif;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: #000;
-  text-align: center;
-  position: relative;
-  font-size: 16px;
-  background: rgba(255, 255, 255, 0.8);
-  -webkit-transform: translatey(-100px);
-  -ms-transform: translatey(-100px);
-  transform: translatey(-100px);
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  padding: 10px;
-  border-bottom: 1px solid lightgrey;
+	font-family: "Lato", serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.8);
+	-webkit-transform: translatey(-100px);
+	-ms-transform: translatey(-100px);
+	transform: translatey(-100px);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	padding: 10px;
+	border-bottom: 1px solid lightgrey;
 }
 
 
 .hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
 
 
 
 .hovereffect:hover h2{
 
-	  opacity: 1;
-  filter: alpha(opacity=100);
-  -ms-transform: translatey(0);
-  -webkit-transform: translatey(0);
-  transform: translatey(0);
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-transform: translatey(0);
+	-webkit-transform: translatey(0);
+	transform: translatey(0);
 }
 
 .hovereffect .description {
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  color: #000;
-  border: 2px solid #000;
-  background-color: transparent;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  margin: 5px 0 0;
-  padding: 7px 14px;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #000;
+	border: 2px solid #000;
+	background-color: transparent;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: 5px 0 0;
+	padding: 7px 14px;
 }
 
 
 
 .hovereffect:hover .description {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -ms-transform: translatey(0);
-  -webkit-transform: translatey(0);
-  transform: translatey(0);
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-transform: translatey(0);
+	-webkit-transform: translatey(0);
+	transform: translatey(0);
 }
 .hovereffect:hover .description {
-  -webkit-transition-delay: .2s;
-  transition-delay: .2s;
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s;
 }
 
 
 
 
 @media only screen and (max-width: 700px){
-    .col {
-    	position: center;
-        width: 49%;
-        margin: 2px 2px;
-    }
+	.col {
+		position: center;
+		width: 49%;
+		margin: 2px 2px;
+	}
 }
 
 
